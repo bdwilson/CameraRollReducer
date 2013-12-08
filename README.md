@@ -18,13 +18,13 @@ Requirements
  - A Jailbroken iOS device
     - ImageMagick
         - On Linux, install ImageMagick from from your OS repo. For Mac, I'd
-          suggest installing it via
-[Homebrew](https://github.com/mxcl/homebrew)
+          suggest installing it via [Homebrew](https://github.com/mxcl/homebrew)
  - rsync
      - Install this on BOTH Mac/Linux side (again, via your OS repo or
        Homebrew) AND on iOS via Cydia.
  - openssh
-     - Install this on iOS (and change the password or uninstall it when you
+     - Install this on iOS (and [change the
+       password](http://www.jailbreakqa.com/questions/13894/how-can-i-change-my-ios-password) or uninstall it when you
        are done) via Cydia.
 
 
@@ -105,6 +105,10 @@ $ rm -rf DCIM*
 
 <i><b>It would also be good to make a note of the date when you run this so you
 can run it again in the future.</i></b>
+
+<b> If you installed SSH on iOS just for this purpose, go uninstall it or
+change your
+[passwords](http://www.jailbreakqa.com/questions/13894/how-can-i-change-my-ios-password).
 
 Bugs/Contact Info
 -----------------
