@@ -7,8 +7,9 @@ roll. This will typically cut the space used by your images by at least <b>half
 or more</b>. Unfortunately, this cannot be done on the iOS device itself because
 ImageMagick is not compiled with jpeg support. I've bugged [@saurik](https://github.com/saurik) about it.
 
-<b>This process will modify your camera roll images on your iOS device. It is
-advised that
+<b>This process will modify your camera roll images on your iOS device, but it
+will not impact things like EXIF data, but it will adjust the modification
+times on your files. It is advised that
 you sync your camera roll via other means prior to doing this, either by using
 iCloud, Dropbox, or some other solution like PhotoSync.  You have been warned!
 </b>
