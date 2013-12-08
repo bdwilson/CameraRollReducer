@@ -1,4 +1,4 @@
-iOS Camera Roll Space Saver / Quality Reducer
+iOS Camera Roll Reducer / Space Saver
 =============================================
 <br>
 A series of shell scripts that sync the camera roll from your jailbroken iOS
