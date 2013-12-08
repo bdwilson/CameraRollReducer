@@ -16,8 +16,8 @@ iCloud, Dropbox, or some other solution like PhotoSync.  You have been warned!
 Requirements
 ------------
  - A Jailbroken iOS device
-    - ImageMagick
-        - On Linux, install ImageMagick from from your OS repo. For Mac, I'd
+ - ImageMagick
+     - On Linux, install ImageMagick from from your OS repo. For Mac, I'd
           suggest installing it via [Homebrew](https://github.com/mxcl/homebrew)
  - rsync
      - Install this on BOTH Mac/Linux side (again, via your OS repo or
