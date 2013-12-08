@@ -24,7 +24,7 @@ Requirements
        Homebrew) AND on iOS via Cydia.
  - openssh
      - Install this on iOS (and [change the
-       password](http://www.jailbreakqa.com/questions/13894/how-can-i-change-my-ios-password) or uninstall it when you
+       passwords](http://www.jailbreakqa.com/questions/13894/how-can-i-change-my-ios-password) or uninstall it when you
        are done) via Cydia.
 
 
