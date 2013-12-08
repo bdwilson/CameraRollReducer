@@ -1,10 +1,10 @@
 iOS Camera Roll Reducer / Space Saver
 =============================================
 <br>
-A series of shell scripts that sync the camera roll from your jailbroken iOS
-device to a
+A series of shell scripts that sync the camera roll from your jailbroken iOS device to a
 local Mac/Linux machine, reduce the quality, then sync them back to the camera
-roll. Unfortunately, this cannot be done on the iOS device itself because
+roll. This will typically cut the space used by your images by at least <b>half
+or more</b>. Unfortunately, this cannot be done on the iOS device itself because
 ImageMagick is not compiled with jpeg support. I've bugged [@saurik](https://github.com/saurik) about it.
 
 <b>This process will modify your camera roll images on your iOS device. It is
