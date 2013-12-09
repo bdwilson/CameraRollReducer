@@ -118,7 +118,7 @@ likey the permissions on your camera roll storage location need to be fixed.
 To do this you need to ssh to your iOS device and issue commands.
 
 <pre>
-$ ssh mobile@[hostname/ip] "chown -R mobile:mobile /var/mobile/Media/DCIM/*"
+$ ssh root@[hostname/ip] "chown -R mobile:mobile /var/mobile/Media/DCIM/*"
 </pre>
 
 Bugs/Contact Info
