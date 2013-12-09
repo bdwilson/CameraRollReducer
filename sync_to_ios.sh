@@ -6,5 +6,6 @@ if [ -x ${HOST} ]; then
 	exit;
 fi
 cd DCIM
-echo "When prompted, enter the root password of your iOS device."
-rsync -av -e ssh * root@${HOST}:/var/mobile/Media/DCIM/
+echo "When prompted, enter the mobile password of your iOS device (default is alpine)."
+rsync -av -e ssh * mobile@${HOST}:/var/mobile/Media/DCIM/
+

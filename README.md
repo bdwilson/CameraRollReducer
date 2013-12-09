@@ -44,7 +44,7 @@ from your iOS device, then issue the following:
 $ ./sync_from_ios.sh 192.168.1.123
 </pre>
 
-When prompted, enter the password for root on your iOS device (hopefully not
+When prompted, enter the password for mobile on your iOS device (hopefully not
 the default (alpine).
 
 It should take awhile depending on how many photos you have. Only JPG photos
@@ -110,6 +110,16 @@ can run it again in the future.</i></b>
 <b> If you installed SSH on iOS just for this purpose, go uninstall it or
 change your
 [passwords](http://www.jailbreakqa.com/questions/13894/how-can-i-change-my-ios-password).
+
+Troubleshooting
+---------------
+If you're unable to take photos via your iOS device after this process, it's
+likey the permissions on your camera roll storage location need to be fixed.
+To do this you need to ssh to your iOS device and issue commands.
+
+<pre>
+$ ssh mobile@[hostname/ip] "chown -R mobile:mobile /var/mobile/Media/DCIM/*"
+</pre>
 
 Bugs/Contact Info
 -----------------
